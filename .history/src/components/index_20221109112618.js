@@ -1,0 +1,1 @@
+export default { Splash as }  from "./Splash";

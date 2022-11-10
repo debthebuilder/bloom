@@ -1,0 +1,25 @@
+.weather-map {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    background-color: black;
+    gap: 10px 20px;
+    color: white;
+    padding: 10px;
+}
+.weather {
+    width: 100%;
+    height: 305px;
+    background-color: red;
+    border-bottom: 10px solid black;
+}
+.sunshine {
+    
+}
+.appTitle {
+    font: {
+        size: 6rem;
+    }
+}

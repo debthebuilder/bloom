@@ -1,0 +1,17 @@
+.splash {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+.weather {
+    
+}
+.appTitle {
+    font: {
+        size: 6rem;
+    }
+}
