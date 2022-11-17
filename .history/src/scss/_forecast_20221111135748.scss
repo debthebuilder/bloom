@@ -1,0 +1,27 @@
+@use "colors"; @use "fonts";
+
+.forecast, .forecast-item {
+    display: flex;
+}
+
+.forecast-item {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: fonts.$lsm;
+}
+
+.forecast-value {
+    font: {
+        size: fonts.$md;
+        weigth: fonts.$semibold;
+    }
+}
+
+.forecast-text {
+    font-size: 14px;
+}

@@ -1,0 +1,16 @@
+@use "colors";
+@import url(_splash.scss);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: colors.$white;
+    color: colors.$black;
+}
+
+.app {}

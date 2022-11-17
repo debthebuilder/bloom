@@ -1,0 +1,13 @@
+export const ForecastItem = (props) => {
+    return(
+        <div className="forecast-item" key={props.key}>
+            <div className="icon">
+                <img src={props.icon} alt={props.alt} />
+            </div>
+            <div className="temp">
+                <span className="temp">{props.value}</span>
+                <span>{props.text}</span>
+            </div>
+        </div>
+    )
+}

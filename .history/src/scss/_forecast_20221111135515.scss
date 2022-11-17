@@ -1,0 +1,21 @@
+@use "colors"; @use "fonts";
+
+.forecast, .forecast-item {
+    display: flex;
+}
+
+.forecast-item {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+
+.forecast-value {
+    font: {
+        size: fonts.
+    }
+}

@@ -1,0 +1,41 @@
+@use "colors"; @use "fonts";
+
+.weather-forecast {
+    cursor: pointer;
+    padding: 2%;
+    flex: 1;
+    &:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+.forecast-date {
+    letter-spacing: fonts.$lsm;
+    font: {
+        size: fonts.$md;
+    }
+}
+.forecast, .forecast-item {
+    display: flex;
+}
+.icon {
+    width: 80px;
+}
+ .icon img {
+    width: 100%;
+}
+.temp {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: fonts.$lsm;
+}
+
+.forecast-value {
+    font: {
+        size: fonts.$md;
+        weigth: fonts.$semibold;
+    }
+}
+
+.forecast-text {
+    font-size: 14px;
+}
